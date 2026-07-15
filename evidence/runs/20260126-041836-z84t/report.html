@@ -1,0 +1,45 @@
+
+<!doctype html><html><head><meta charset="utf-8">
+<title>UI Change Evidence Report</title>
+<style>
+body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:24px}
+table{border-collapse:collapse;width:100%}
+th,td{padding:8px;border-bottom:1px solid #eee;vertical-align:top}
+.badge{border-radius:6px;padding:2px 8px}
+.LOW{background:#e8f5e9;color:#256029}.MEDIUM{background:#fff8e1;color:#7f6000}.HIGH{background:#fdecea;color:#8a0c0c}
+.details{margin-top:12px}
+.card{border:1px solid #e5e5e5;border-radius:8px;padding:12px;margin:12px 0}
+.diff{display:flex;gap:12px;flex-wrap:wrap}
+.diff img{max-width:32%;border:1px solid #ddd}
+pre{white-space:pre-wrap;background:#fafafa;border:1px solid #eee;padding:8px;border-radius:6px;max-height:360px;overflow:auto}
+</style>
+<script>function toggle(id){const el=document.getElementById(id); el.style.display=(el.style.display==='none'?'block':'block'===el.style.display?'none':'block');}</script>
+</head><body>
+<h1>UI Change Evidence Report</h1>
+<table>
+<thead><tr><th>Page</th><th>Combined</th><th>Text sim</th><th>Img dist</th><th>Rules</th><th>Open</th></tr></thead>
+<tbody>
+
+<tr>
+  <td><strong>Internal Dashboard</strong><br><small>https://now.lilly.com/</small></td>
+  <td><span class="badge LOW">LOW</span> 0.00</td>
+  <td>1.00</td>
+  <td>0.00</td>
+  <td>⚠️</td>
+  <td><button onclick="toggle('d0')">Open</button></td>
+</tr>
+<tr><td colspan="6">
+  <div id="d0" class="details" style="display:none">
+    <div class="card"><strong>Meta:</strong> {&#x27;name&#x27;: &#x27;Internal Dashboard&#x27;, &#x27;url&#x27;: &#x27;https://now.lilly.com/&#x27;, &#x27;final_url&#x27;: &#x27;https://login.microsoftonline.com/18a59a81-eea8-4c30-948a-d8824cdc2580/oauth2/v2.0/authorize?client_id=2fd7c9c3-81f9-475e-a7ab-acbc3979955c&amp;scope=openid%20email%20profile%20offline_access%20api%3A%2F%2F39b64b04-e385-4232-a4e2-604367e2d849%2F.default&amp;redirect_uri=https%3A%2F%2Fnow.lilly.com%2Fauth%2Fcallback&amp;client-request-id=ff49a177-94e4-4aa4-a67f-0fb819f041be&amp;response_mode=query&amp;response_type=code&amp;x-client-SKU=msal.js.node&amp;x-client-VER=2.16.3&amp;x-client-OS=linux&amp;x-client-CPU=x64&amp;client_info=1&#x27;, &#x27;title&#x27;: &#x27;Sign in to your account&#x27;, &#x27;timestamp&#x27;: &#x27;2026-01-26T04:18:45.043714Z&#x27;}</div>
+    <div class="diff">
+      <div><div><small>Baseline</small></div><img src="../../baselines/internal-dashboard/screenshot.png"/></div>
+      <div><div><small>Current</small></div><img src="artifacts/internal-dashboard/screenshot.png"/></div>
+      <div><div><small>Diff</small></div><img src="artifacts\internal-dashboard\diff.png"/></div>
+    </div>
+    <div class="card">
+      <strong>Unified text diff</strong>
+      <pre></pre>
+    </div>
+  </div>
+</td></tr>
+</tbody></table></body></html>

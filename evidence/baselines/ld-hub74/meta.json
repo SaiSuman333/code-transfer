@@ -1,0 +1,11 @@
+{
+  "name": "Internal Dashboard",
+  "slug": "ld-hub74",
+  "url": "https://collab.lilly.com/sites/LD-HUB74",
+  "final_url": "https://collab.lilly.com/sites/LD-HUB74",
+  "title": "",
+  "timestamp": "2026-01-26T05:16:46.443805Z",
+  "headless": true,
+  "wait_until": "commit",
+  "settle_ms": 8000
+}

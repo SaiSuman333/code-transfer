@@ -1,0 +1,16 @@
+pyproject.toml
+src/uimon/__init__.py
+src/uimon/__main__.py
+src/uimon/cli.py
+src/uimon/collector.py
+src/uimon/differ_image.py
+src/uimon/differ_text.py
+src/uimon/masker.py
+src/uimon/reporter.py
+src/uimon/rules.py
+src/uimon/scorer.py
+src/uimon/utils.py
+src/uimon.egg-info/PKG-INFO
+src/uimon.egg-info/SOURCES.txt
+src/uimon.egg-info/dependency_links.txt
+src/uimon.egg-info/top_level.txt

@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "name": "Internal Dashboard",
+      "url": "https://now.lilly.com/content",
+      "slug": "internal-dashboard",
+      "meta": {
+        "name": "Internal Dashboard",
+        "url": "https://now.lilly.com/content",
+        "final_url": "https://now.lilly.com/content",
+        "title": "Page Not Found (404)",
+        "timestamp": "2026-01-26T04:44:21.670163Z"
+      },
+      "scores": {
+        "text_similarity": 1.0,
+        "image_distance": 0.0,
+        "combined": 0.0,
+        "severity": "LOW"
+      },
+      "rules": {
+        "must_exist": [
+          {
+            "selector": "#kpi-cards",
+            "ok": false
+          },
+          {
+            "selector": "table#releases",
+            "ok": false
+          }
+        ],
+        "must_contain": [
+          {
+            "selector": "h1",
+            "text": "Dashboard",
+            "ok": false
+          }
+        ],
+        "passed": false
+      },
+      "paths": {
+        "meta": "runs\\20260126-044406-u73t\\artifacts\\internal-dashboard\\meta.json",
+        "text": "runs\\20260126-044406-u73t\\artifacts\\internal-dashboard\\text.txt",
+        "screenshot": "runs\\20260126-044406-u73t\\artifacts\\internal-dashboard\\screenshot.png",
+        "diff": "runs\\20260126-044406-u73t\\artifacts\\internal-dashboard\\diff.png"
+      },
+      "diff_preview": {
+        "text_unified": "",
+        "image_diff_path": "runs\\20260126-044406-u73t\\artifacts\\internal-dashboard\\diff.png"
+      }
+    }
+  ]
+}

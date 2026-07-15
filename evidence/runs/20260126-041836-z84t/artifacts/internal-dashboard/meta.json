@@ -1,0 +1,7 @@
+{
+  "name": "Internal Dashboard",
+  "url": "https://now.lilly.com/",
+  "final_url": "https://login.microsoftonline.com/18a59a81-eea8-4c30-948a-d8824cdc2580/oauth2/v2.0/authorize?client_id=2fd7c9c3-81f9-475e-a7ab-acbc3979955c&scope=openid%20email%20profile%20offline_access%20api%3A%2F%2F39b64b04-e385-4232-a4e2-604367e2d849%2F.default&redirect_uri=https%3A%2F%2Fnow.lilly.com%2Fauth%2Fcallback&client-request-id=ff49a177-94e4-4aa4-a67f-0fb819f041be&response_mode=query&response_type=code&x-client-SKU=msal.js.node&x-client-VER=2.16.3&x-client-OS=linux&x-client-CPU=x64&client_info=1",
+  "title": "Sign in to your account",
+  "timestamp": "2026-01-26T04:18:45.043714Z"
+}
